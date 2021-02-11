@@ -68,6 +68,26 @@
         <name>Calculate</name>
         <label>Berekenen</label>
     </customLabels>
+    <customLabels>
+        <name>Details</name>
+        <label>Details</label>
+    </customLabels>
+    <customLabels>
+        <name>Program_Analysis</name>
+        <label>Programma-analyse</label>
+    </customLabels>
+    <customLabels>
+        <name>Funding_Requests</name>
+        <label>Financieringsaanvragen</label>
+    </customLabels>
+    <customLabels>
+        <name>Requirements</name>
+        <label>Vereisten</label>
+    </customLabels>
+    <customLabels>
+        <name>Disbursements</name>
+        <label>Uitbetalingen</label>
+    </customLabels>
     <reportTypes>
         <name>Funding_Programs_with_Funding_Requests_with_Disbursements</name>
         <label>Financieringsprogramma's met financieringsaanvragen met uitbetalingen</label>

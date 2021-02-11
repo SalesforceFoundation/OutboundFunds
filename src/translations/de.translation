@@ -68,6 +68,26 @@
         <name>Calculate</name>
         <label>Berechnen</label>
     </customLabels>
+    <customLabels>
+        <name>Details</name>
+        <label>Details</label>
+    </customLabels>
+    <customLabels>
+        <name>Program_Analysis</name>
+        <label>Programm-Analyse</label>
+    </customLabels>
+    <customLabels>
+        <name>Funding_Requests</name>
+        <label>Finanzierungsanfragen</label>
+    </customLabels>
+    <customLabels>
+        <name>Requirements</name>
+        <label>Anforderungen</label>
+    </customLabels>
+    <customLabels>
+        <name>Disbursements</name>
+        <label>Auszahlungen</label>
+    </customLabels>
     <reportTypes>
         <name>Funding_Programs_with_Funding_Requests_with_Disbursements</name>
         <label>Finanzierungsprogramme mit Finanzierungsanfragen mit Auszahlungen</label>

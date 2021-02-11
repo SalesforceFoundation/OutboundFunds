@@ -68,6 +68,26 @@
         <name>Calculate</name>
         <label>計算</label>
     </customLabels>
+    <customLabels>
+        <name>Details</name>
+        <label>詳細</label>
+    </customLabels>
+    <customLabels>
+        <name>Program_Analysis</name>
+        <label>プログラム分析</label>
+    </customLabels>
+    <customLabels>
+        <name>Funding_Requests</name>
+        <label>資金調達要求</label>
+    </customLabels>
+    <customLabels>
+        <name>Requirements</name>
+        <label>助成金の提出書類要件</label>
+    </customLabels>
+    <customLabels>
+        <name>Disbursements</name>
+        <label>支払金</label>
+    </customLabels>
     <reportTypes>
         <name>Funding_Programs_with_Funding_Requests_with_Disbursements</name>
         <label>支払金を含む資金調達要求を含む資金調達プログラム</label>
