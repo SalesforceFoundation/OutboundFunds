@@ -1,5 +1,7 @@
 # Outbound Funds
 
+For `232.3` Summer '21 Emerging Release.
+
 ![Outbound Funds Logo](https://github.com/SalesforceFoundation/OutboundFundsModule/blob/master/images/Outbound%20Funds%20OSC%20Logo%20250x250.png)
 
 The Outbound Funds app is a community developed and maintained Open Source Commons project. It is a customizable foundation for managing funds awarded by your organization, like grants, scholarships or internal funding.
