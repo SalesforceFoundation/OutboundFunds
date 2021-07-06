@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Review Layout</layout>
+        <sections>
+            <label>Revisión</label>
+            <section>Review</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de revisión</nameFieldLabel>
+    <standardFields>
+        <name>Name</name>
+        <label>Nombre de revisión</label>
+    </standardFields>
+    <gender>Feminine</gender>
     <caseValues>
         <plural>false</plural>
-        <value><!-- Review --></value>
+        <value>Revisión</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value><!-- Review --></value>
+        <value>Revisiones</value>
     </caseValues>
-    <gender><!-- Feminine --></gender>
-    <nameFieldLabel><!-- Review Name --></nameFieldLabel>
 </CustomObjectTranslation>

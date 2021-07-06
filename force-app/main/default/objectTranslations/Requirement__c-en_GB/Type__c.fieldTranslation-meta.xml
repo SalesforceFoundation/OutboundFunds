@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>Type__c</name>
+    <label>Type</label>
+    <picklistValues>
+        <masterLabel>Letter of Intent</masterLabel>
+        <translation>Letter of Intent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preliminary Application</masterLabel>
+        <translation>Preliminary Application</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Final Application</masterLabel>
+        <translation>Final Application</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Review</masterLabel>
+        <translation>Review</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Panel Review</masterLabel>
+        <translation>Panel Review</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract</masterLabel>
+        <translation>Contract</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Report</masterLabel>
+        <translation>Report</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outcome</masterLabel>
+        <translation>Outcome</translation>
+    </picklistValues>
+</CustomFieldTranslation>

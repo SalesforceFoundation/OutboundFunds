@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <name>disbursementsCreate_ScheduleDisbursements</name>
-        <label>支払をスケジュール</label>
+        <name>Calculate</name>
+        <label>計算</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_FundingRequestInformation</name>
-        <label>資金調達要求情報</label>
+        <name>Cancel</name>
+        <label>キャンセル</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoInsertFlsException</name>
+        <label>このレコードを作成する項目レベルのアクセス権がありません。詳細は、Salesforce システム管理者にお問い合わせください。</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoUpdateFlsException</name>
+        <label>このレコードを編集する項目レベルのアクセス権がありません。詳細は、Salesforce システム管理者にお問い合わせください。</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoDeleteAccessException</name>
+        <label>このオブジェクトへの削除アクセス権がありません。詳細は、Salesforce システム管理者にお問い合わせください。</label>
+    </customLabels>
+    <customLabels>
+        <name>Details</name>
+        <label>詳細</label>
+    </customLabels>
+    <customLabels>
+        <name>Disbursements</name>
+        <label>支払金</label>
+    </customLabels>
+    <customLabels>
+        <name>Error</name>
+        <label>エラー</label>
+    </customLabels>
+    <customLabels>
+        <name>Funding_Requests</name>
+        <label>資金調達要求</label>
+    </customLabels>
+    <customLabels>
+        <name>Program_Analysis</name>
+        <label>プログラム分析</label>
+    </customLabels>
+    <customLabels>
+        <name>Requirements</name>
+        <label>助成金の提出書類要件</label>
+    </customLabels>
+    <customLabels>
+        <name>Save</name>
+        <label>保存</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_CalculateDisbursements</name>
         <label>支払金を計算</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_NumberOfDisbursements</name>
-        <label>支払数</label>
-    </customLabels>
-    <customLabels>
         <name>disbursementsCreate_FirstDate</name>
         <label>最初の日</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_FundingRequestInformation</name>
+        <label>資金調達要求情報</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_Interval</name>
@@ -29,12 +69,12 @@
         <label>期間</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_IntervalType_Week</name>
-        <label>週</label>
-    </customLabels>
-    <customLabels>
         <name>disbursementsCreate_IntervalType_Month</name>
         <label>月</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_IntervalType_Week</name>
+        <label>週</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_IntervalType_Year</name>
@@ -45,6 +85,10 @@
         <label>支払金を作成するための十分な資金が残っていません。</label>
     </customLabels>
     <customLabels>
+        <name>disbursementsCreate_NumberOfDisbursements</name>
+        <label>支払数</label>
+    </customLabels>
+    <customLabels>
         <name>disbursementsCreate_PaymentsExceedFunds</name>
         <label>支払金額は、利用可能な資金を上回ることはできません。</label>
     </customLabels>
@@ -53,20 +97,8 @@
         <label>支払金が正常に保存されました。</label>
     </customLabels>
     <customLabels>
-        <name>Error</name>
-        <label>エラー</label>
-    </customLabels>
-    <customLabels>
-        <name>Save</name>
-        <label>保存</label>
-    </customLabels>
-    <customLabels>
-        <name>Cancel</name>
-        <label>キャンセル</label>
-    </customLabels>
-    <customLabels>
-        <name>Calculate</name>
-        <label>計算</label>
+        <name>disbursementsCreate_ScheduleDisbursements</name>
+        <label>支払をスケジュール</label>
     </customLabels>
     <reportTypes>
         <name>Funding_Programs_with_Funding_Requests_with_Disbursements</name>
@@ -115,6 +147,10 @@
     <quickActions>
         <name>Funding_Request__c.Create_Bulk_Disbursements</name>
         <label>支払金を作成</label>
+    </quickActions>
+    <quickActions>
+        <name>Review__c.SubmitReview</name>
+        <label>レビューを送信</label>
     </quickActions>
     <quickActions>
         <name>Funding_Program__c.Program_Totals</name>

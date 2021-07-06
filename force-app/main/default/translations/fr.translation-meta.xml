@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <name>disbursementsCreate_ScheduleDisbursements</name>
-        <label>Planifier les versements</label>
+        <name>Calculate</name>
+        <label>Calculer</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_FundingRequestInformation</name>
-        <label>Informations sur la demande de subvention</label>
+        <name>Cancel</name>
+        <label>Annuler</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoInsertFlsException</name>
+        <label>Vous ne disposez pas de l’accès au niveau du champ pour créer cet enregistrement. Demandez de l’aide à votre administrateur Salesforce.</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoUpdateFlsException</name>
+        <label>Vous ne disposez pas de l’accès au niveau du champ pour modifier cet enregistrement. Demandez de l’aide à votre administrateur Salesforce.</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoDeleteAccessException</name>
+        <label>Vous ne disposez pas de l’accès en suppression à cet objet. Demandez de l’aide à votre administrateur Salesforce.</label>
+    </customLabels>
+    <customLabels>
+        <name>Details</name>
+        <label>Détails</label>
+    </customLabels>
+    <customLabels>
+        <name>Disbursements</name>
+        <label>Versements</label>
+    </customLabels>
+    <customLabels>
+        <name>Error</name>
+        <label>Erreur</label>
+    </customLabels>
+    <customLabels>
+        <name>Funding_Requests</name>
+        <label>Demandes de subvention</label>
+    </customLabels>
+    <customLabels>
+        <name>Program_Analysis</name>
+        <label>Analyse du programme</label>
+    </customLabels>
+    <customLabels>
+        <name>Requirements</name>
+        <label>Exigences</label>
+    </customLabels>
+    <customLabels>
+        <name>Save</name>
+        <label>Enregistrer</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_CalculateDisbursements</name>
         <label>Calculer les versements</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_NumberOfDisbursements</name>
-        <label>Nombre de versements</label>
-    </customLabels>
-    <customLabels>
         <name>disbursementsCreate_FirstDate</name>
         <label>Date initiale</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_FundingRequestInformation</name>
+        <label>Informations sur la demande de subvention</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_Interval</name>
@@ -29,12 +69,12 @@
         <label>Périodicité</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_IntervalType_Week</name>
-        <label>Semaine</label>
-    </customLabels>
-    <customLabels>
         <name>disbursementsCreate_IntervalType_Month</name>
         <label>Mois</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_IntervalType_Week</name>
+        <label>Semaine</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_IntervalType_Year</name>
@@ -45,6 +85,10 @@
         <label>Les fonds restants sont insuffisants pour créer des versements.</label>
     </customLabels>
     <customLabels>
+        <name>disbursementsCreate_NumberOfDisbursements</name>
+        <label>Nombre de versements</label>
+    </customLabels>
+    <customLabels>
         <name>disbursementsCreate_PaymentsExceedFunds</name>
         <label>Le montant des paiements ne peut pas dépasser les fonds disponibles.</label>
     </customLabels>
@@ -53,20 +97,8 @@
         <label>Versement enregistré avec succès.</label>
     </customLabels>
     <customLabels>
-        <name>Error</name>
-        <label>Erreur</label>
-    </customLabels>
-    <customLabels>
-        <name>Save</name>
-        <label>Enregistrer</label>
-    </customLabels>
-    <customLabels>
-        <name>Cancel</name>
-        <label>Annuler</label>
-    </customLabels>
-    <customLabels>
-        <name>Calculate</name>
-        <label>Calculer</label>
+        <name>disbursementsCreate_ScheduleDisbursements</name>
+        <label>Planifier les versements</label>
     </customLabels>
     <reportTypes>
         <name>Funding_Programs_with_Funding_Requests_with_Disbursements</name>
@@ -115,6 +147,10 @@
     <quickActions>
         <name>Funding_Request__c.Create_Bulk_Disbursements</name>
         <label>Créer des versements</label>
+    </quickActions>
+    <quickActions>
+        <name>Review__c.SubmitReview</name>
+        <label>Soumettre l’examen</label>
     </quickActions>
     <quickActions>
         <name>Funding_Program__c.Program_Totals</name>

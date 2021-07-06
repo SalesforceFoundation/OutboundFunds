@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <name>disbursementsCreate_ScheduleDisbursements</name>
-        <label>Programar desembolsos</label>
+        <name>Calculate</name>
+        <label>Calcular</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_FundingRequestInformation</name>
-        <label>Información de solicitud de fondos</label>
+        <name>Cancel</name>
+        <label>Cancelar</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoInsertFlsException</name>
+        <label>No tiene acceso de nivel de campo para crear este objeto. Solicite ayuda a su administrador de Salesforce.</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoUpdateFlsException</name>
+        <label>No tiene acceso de nivel de campo para modificar este objeto. Solicite ayuda a su administrador de Salesforce.</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoDeleteAccessException</name>
+        <label>No tiene acceso de eliminación a este objeto. Solicite ayuda a su administrador de Salesforce.</label>
+    </customLabels>
+    <customLabels>
+        <name>Details</name>
+        <label>Detalles</label>
+    </customLabels>
+    <customLabels>
+        <name>Disbursements</name>
+        <label>Desembolsos</label>
+    </customLabels>
+    <customLabels>
+        <name>Error</name>
+        <label>Error</label>
+    </customLabels>
+    <customLabels>
+        <name>Funding_Requests</name>
+        <label>Solicitudes de fondos</label>
+    </customLabels>
+    <customLabels>
+        <name>Program_Analysis</name>
+        <label>Análisis de programa</label>
+    </customLabels>
+    <customLabels>
+        <name>Requirements</name>
+        <label>Requisitos</label>
+    </customLabels>
+    <customLabels>
+        <name>Save</name>
+        <label>Guardar</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_CalculateDisbursements</name>
         <label>Calcular desembolsos</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_NumberOfDisbursements</name>
-        <label>Número de desembolsos</label>
-    </customLabels>
-    <customLabels>
         <name>disbursementsCreate_FirstDate</name>
         <label>Primera fecha</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_FundingRequestInformation</name>
+        <label>Información de solicitud de fondos</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_Interval</name>
@@ -29,12 +69,12 @@
         <label>Periodo</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_IntervalType_Week</name>
-        <label>Semana</label>
-    </customLabels>
-    <customLabels>
         <name>disbursementsCreate_IntervalType_Month</name>
         <label>Mes</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_IntervalType_Week</name>
+        <label>Semana</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_IntervalType_Year</name>
@@ -45,6 +85,10 @@
         <label>No hay fondos suficientes restantes para crear desembolsos.</label>
     </customLabels>
     <customLabels>
+        <name>disbursementsCreate_NumberOfDisbursements</name>
+        <label>Número de desembolsos</label>
+    </customLabels>
+    <customLabels>
         <name>disbursementsCreate_PaymentsExceedFunds</name>
         <label>El importe de los pagos no puede superar los fondos disponibles.</label>
     </customLabels>
@@ -53,20 +97,8 @@
         <label>Desembolsos guardados correctamente.</label>
     </customLabels>
     <customLabels>
-        <name>Error</name>
-        <label>Error</label>
-    </customLabels>
-    <customLabels>
-        <name>Save</name>
-        <label>Guardar</label>
-    </customLabels>
-    <customLabels>
-        <name>Cancel</name>
-        <label>Cancelar</label>
-    </customLabels>
-    <customLabels>
-        <name>Calculate</name>
-        <label>Calcular</label>
+        <name>disbursementsCreate_ScheduleDisbursements</name>
+        <label>Programar desembolsos</label>
     </customLabels>
     <reportTypes>
         <name>Funding_Programs_with_Funding_Requests_with_Disbursements</name>
@@ -115,6 +147,10 @@
     <quickActions>
         <name>Funding_Request__c.Create_Bulk_Disbursements</name>
         <label>Crear desembolsos</label>
+    </quickActions>
+    <quickActions>
+        <name>Review__c.SubmitReview</name>
+        <label>Enviar revisión</label>
     </quickActions>
     <quickActions>
         <name>Funding_Program__c.Program_Totals</name>

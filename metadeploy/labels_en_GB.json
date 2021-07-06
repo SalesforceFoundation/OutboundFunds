@@ -1,0 +1,72 @@
+{
+    "product": {
+        "title": {
+            "message": "Outbound Funds Module",
+            "description": "name of product"
+        },
+        "short_description": {
+            "message": "Track and manage outgoing funding programs.",
+            "description": "tagline of product"
+        },
+        "description": {
+            "message": "Welcome to the Outbound Funds Module installer!\r\n\r\nThe Outbound Funds Module gives you the tools to easily manage and track funding requests and outgoing funds.\r\n\r\n*IMPORTANT*: Salesforce does not recommend installing upgrades directly in production organisations. Instead, install Outbound Funds Module in one of your free sandbox environments or a developer organisation first.\r\n\r\nOnce you've installed Outbound Funds Module, check out the [Outbound Funds Module documentation](https://powerofus.force.com/s/article/OFM-Documentation) to get started. \r\n\r\nIf you're looking to extend Outbound Funds Module with the Fundseeker Starter Portal Template, check out the [Outbound Funds Module Fundseeker Starter Portal Template installer](https://install.salesforce.org/products/outbound-funds-portal/).\r\n\r\nQuestions? Become a member of the [Outbound Funds Module](https://powerofus.force.com/s/group/0F980000000CvlMCAS) community group in the Power of Us Hub.",
+            "description": "shown on product detail page (markdown)"
+        },
+        "click_through_agreement": {
+            "message": "The Outbound Funds Module (“OFM”) technology is an open-source package licenced by salesforce.com, Inc. or one of its Affiliates (“SFDC”) under the BSD-3 Clause Licence, found at https://opensource.org/licenses/BSD-3-Clause. When you install the OFM package, the SFDO Base package, a closed-source technology licenced by SFDC under a proprietary limited use licence, will automatically be installed into your Salesforce org. \r\n\r\nBY INSTALLING OFM, YOU AGREE TO ITS LICENCE (https://github.com/SalesforceFoundation/OutboundFunds/blob/master/LICENCE) AND THE SFDO BASE LICENCE (https://github.com/SalesforceFoundation/ProductLicenses/blob/master/SFDOBase.md).\r\n\r\nANY MASTER SUBSCRIPTION AGREEMENT YOU OR YOUR ENTITY MAY HAVE WITH SFDC DOES NOT APPLY TO YOUR USE OF OFM OR SFDO BASE.  AN “AFFILIATE” MEANS ANY ENTITY THAT DIRECTLY OR INDIRECTLY CONTROLS, IS CONTROLLED BY, OR IS UNDER COMMON CONTROL WITH THE SUBJECT ENTITY. “CONTROL,” FOR PURPOSES OF THIS DEFINITION, MEANS DIRECT OR INDIRECT OWNERSHIP OR CONTROL OF MORE THAN 50% OF THE VOTING INTERESTS OF THE SUBJECT ENTITY.  SALESFORCE.ORG LLC IS AN AFFILIATE OF SALESFORCE.COM, INC. \r\n\r\nOFM AND SFDO BASE ARE NON-SFDC APPLICATIONS OR THIRD-PARTY APPLICATIONS, AND NOT SERVICES, UNDER ANY MASTER SUBSCRIPTION AGREEMENT YOU HAVE WITH SFDC. OFM AND SFDO BASE ARE PROVIDED “AS IS” AND AS AVAILABLE. SFDC MAKES NO WARRANTY OF ANY KIND REGARDING OFM OR SFDO BASE, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, FREEDOM FROM DEFECTS OR NON-INFRINGEMENT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.  IF YOU SUBMIT ANY SENSITIVE OR REGULATED DATA TO OFM, YOU ARE SOLELY RESPONSIBLE FOR ENSURING THAT YOUR USE OF OFM TO PROCESS THAT INFORMATION COMPLIES WITH ALL APPLICABLE LAWS AND REGULATIONS. \r\n\r\nSFDC WILL NOT HAVE ANY LIABILITY ARISING OUT OF OR RELATED TO YOUR USE OF OFM OR SFDO BASE FOR ANY DIRECT DAMAGES OR FOR ANY LOST PROFITS, REVENUES, GOODWILL OR INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, EXEMPLARY, COVER, BUSINESS INTERRUPTION OR PUNITIVE DAMAGES, WHETHER AN ACTION IS IN CONTRACT OR TORT AND REGARDLESS OF THE THEORY OF LIABILITY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR IF A REMEDY OTHERWISE FAILS OF ITS ESSENTIAL PURPOSE. THE FOREGOING DISCLAIMER WILL NOT APPLY TO THE EXTENT PROHIBITED BY LAW. SFDC DISCLAIMS ALL LIABILITY AND INDEMNIFICATION OBLIGATIONS FOR ANY HARM OR DAMAGES CAUSED BY ANY THIRD-PARTY HOSTING PROVIDERS. \r\n\r\nTHIS AGREEMENT SHALL BE GOVERNED EXCLUSIVELY BY, AND CONSTRUED EXCLUSIVELY IN ACCORDANCE WITH, THE LAWS OF THE UNITED STATES AND THE STATE OF CALIFORNIA, WITHOUT REGARD TO ITS CONFLICT OF LAWS PROVISIONS. THE STATE AND FEDERAL COURTS LOCATED IN SAN FRANCISCO, CALIFORNIA SHALL HAVE EXCLUSIVE JURISDICTION TO ADJUDICATE ANY DISPUTE ARISING OUT OF OR RELATING TO THIS AGREEMENT. EACH PARTY HEREBY CONSENTS TO THE JURISDICTION OF SUCH COURTS AND WAIVES ANY RIGHT IT MAY OTHERWISE HAVE TO CHALLENGE THE APPROPRIATENESS OF SUCH FORUMS.",
+            "description": "legal text shown in modal dialog"
+        },
+        "error_message": {
+            "message": "To get help with this error, go to [help.salesforce.com](https://help.salesforce.com/), find the Support & Services area, and log a technical support ticket with Salesforce. Include “Outbound Funds Module” in the subject line and include in your comment the installation link shown here.",
+            "description": "shown after failed installation (markdown)"
+        }
+    },
+    "plan:install": {
+        "title": {
+            "message": "Install Outbound Funds Module",
+            "description": "title of installation plan"
+        },
+        "preflight_message": {
+            "message": "This will install Outbound Funds Module into your org.",
+            "description": "shown before user starts installation (markdown)"
+        },
+        "post_install_message": {
+            "message": "Thanks for installing Outbound Funds Module. Please visit the [Outbound Funds Module](https://powerofus.force.com/s/group/0F980000000CvlMCAS) community group on the Power of Us Hub for any questions about Outbound Funds Module.",
+            "description": "shown after successful installation (markdown)"
+        },
+        "error_message": {
+            "message": "To get help with this error, go to [help.salesforce.com](https://help.salesforce.com/), find the Support & Services area, and log a technical support ticket with Salesforce. Include “Outbound Funds Module” in the subject line and include in your comment the installation link shown here.",
+            "description": "shown after failed installation (markdown)"
+        }
+    },
+    "checks": {
+        "Outbound Funds Module requires Chatter. Please enable Chatter in your org and try again.": {
+            "message": "Outbound Funds Module requires Chatter. Please enable Chatter in your org and try again.",
+            "description": "shown if validation fails"
+        },
+        "Please enable My Domain in your org prior to installing.": {
+            "message": "Please enable My Domain in your org prior to installing.",
+            "description": "shown if validation fails"
+        }
+    },
+    "steps": {
+        "Install {product} {version}": {
+            "message": "Install {product} {version}",
+            "description": "title of installation step"
+        }
+    },
+    "plan:upgrade": {
+        "title": {
+            "message": "Product Upgrade",
+            "description": "title of installation plan"
+        },
+        "preflight_message": {
+            "message": "This installer upgrades this package and any required dependencies to the latest version in your org. This installer isn't supported and has risks. Please don't run this installer unless you're aware of its specific use cases and considerations.",
+            "description": "shown before user starts installation (markdown)"
+        },
+        "post_install_message": {
+            "message": "Installation complete and package is on the latest version.",
+            "description": "shown after successful installation (markdown)"
+        }
+    }
+}

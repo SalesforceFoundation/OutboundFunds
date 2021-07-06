@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>SubmittedDate__c</name>
+    <help>The date the Review was submitted.</help>
+    <label>Submitted Date</label>
+</CustomFieldTranslation>

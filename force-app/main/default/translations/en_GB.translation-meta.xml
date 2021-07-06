@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <name>Calculate</name>
+        <label>Calculate</label>
+    </customLabels>
+    <customLabels>
+        <name>Cancel</name>
+        <label>Cancel</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoInsertFlsException</name>
+        <label>You don&apos;t have field-level access to create this record. Ask your Salesforce admin for help.</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoUpdateFlsException</name>
+        <label>You don&apos;t have field-level access to edit this record. Ask your Salesforce admin for help.</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoDeleteAccessException</name>
+        <label>You don&apos;t have delete access to this object. Ask your Salesforce admin for help.</label>
+    </customLabels>
+    <customLabels>
+        <name>Details</name>
+        <label>Details</label>
+    </customLabels>
+    <customLabels>
+        <name>Disbursements</name>
+        <label>Disbursements</label>
+    </customLabels>
+    <customLabels>
+        <name>Error</name>
+        <label>Error</label>
+    </customLabels>
+    <customLabels>
+        <name>Funding_Requests</name>
+        <label>Funding Requests</label>
+    </customLabels>
+    <customLabels>
+        <name>Program_Analysis</name>
+        <label>Program Analysis</label>
+    </customLabels>
+    <customLabels>
+        <name>Requirements</name>
+        <label>Requirements</label>
+    </customLabels>
+    <customLabels>
+        <name>Save</name>
+        <label>Save</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_CalculateDisbursements</name>
+        <label>Calculate Disbursements</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_FirstDate</name>
+        <label>First Date</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_FundingRequestInformation</name>
+        <label>Funding Request Information</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_Interval</name>
+        <label>Interval</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_IntervalType</name>
+        <label>Period</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_IntervalType_Month</name>
+        <label>Month</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_IntervalType_Week</name>
+        <label>Week</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_IntervalType_Year</name>
+        <label>Year</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_NoFundsRemaining</name>
+        <label>There are not enough funds remaining to create disbursements.</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_NumberOfDisbursements</name>
+        <label>Number of Disbursements</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_PaymentsExceedFunds</name>
+        <label>The amount of payments cannot exceed available funds.</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_SavedMessage</name>
+        <label>Disbursements successfully saved.</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_ScheduleDisbursements</name>
+        <label>Schedule Disbursements</label>
+    </customLabels>
+    <reportTypes>
+        <name>Funding_Programs_with_Funding_Requests_with_Disbursements</name>
+        <label>Funding Programs with Funding Requests with Disbursements</label>
+        <sections>
+            <label>Funding Programs</label>
+            <name>Funding Programs</name>
+        </sections>
+        <sections>
+            <label>Funding Requests</label>
+            <name>Funding Requests</name>
+        </sections>
+        <sections>
+            <label>Disbursements</label>
+            <name>Disbursements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <name>Funding_Requests_w_Funding_Programs_w_Parent_Progr</name>
+        <label>Funding Requests w/Funding Programs w/Parent Programs</label>
+        <sections>
+            <label>Funding Programs</label>
+            <name>Funding Programs</name>
+        </sections>
+        <sections>
+            <label>Subordinate Funding Programs</label>
+            <name>Subordinate Funding Programs</name>
+        </sections>
+        <sections>
+            <label>Funding Requests</label>
+            <name>Funding Requests</name>
+        </sections>
+    </reportTypes>
+    <customApplications>
+        <name>Outbound_Funds</name>
+        <label>Outbound Funds</label>
+    </customApplications>
+    <quickActions>
+        <name>Funding_Request__c.New_Funding_Request_Role</name>
+        <label>Create Funding Request Role</label>
+    </quickActions>
+    <quickActions>
+        <name>Funding_Request__c.Disbursment_Information</name>
+        <label>Disbursement Information</label>
+    </quickActions>
+    <quickActions>
+        <name>Funding_Request__c.Create_Bulk_Disbursements</name>
+        <label>Create Disbursements</label>
+    </quickActions>
+    <quickActions>
+        <name>Review__c.SubmitReview</name>
+        <label>Submit Review</label>
+    </quickActions>
+    <quickActions>
+        <name>Funding_Program__c.Program_Totals</name>
+        <label>Programs Totals</label>
+    </quickActions>
+</Translations>

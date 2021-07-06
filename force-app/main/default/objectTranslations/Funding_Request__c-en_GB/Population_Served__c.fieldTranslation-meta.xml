@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>Population_Served__c</name>
+    <label>Population Served</label>
+    <picklistValues>
+        <masterLabel>Adults</masterLabel>
+        <translation>Adults</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Below Poverty level</masterLabel>
+        <translation>Below Poverty level</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caregivers</masterLabel>
+        <translation>Caregivers</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Children and Youth</masterLabel>
+        <translation>Children and Youth</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Economically Disadvantaged People</masterLabel>
+        <translation>Economically Disadvantaged</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ethnic and racial groups</masterLabel>
+        <translation>Ethnic and racial groups</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Families</masterLabel>
+        <translation>Families</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heterosexuals</masterLabel>
+        <translation>Heterosexuals</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Homeless</masterLabel>
+        <translation>Homeless</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immigrants and Refugees</masterLabel>
+        <translation>Immigrants and Refugees</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incarcerated People</masterLabel>
+        <translation>Incarcerated People</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LGBTQ</masterLabel>
+        <translation>LGBTQ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Men</masterLabel>
+        <translation>Men</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>People with Disabilities</masterLabel>
+        <translation>People with Disabilities</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>People with Diseases and Illnesses</masterLabel>
+        <translation>People with Diseases and Illnesses</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Religious Groups</masterLabel>
+        <translation>Religious Groups</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veteran</masterLabel>
+        <translation>Veteran</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Victims and Oppressed People</masterLabel>
+        <translation>Victims and Oppressed People</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Women</masterLabel>
+        <translation>Women</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth at Risk</masterLabel>
+        <translation>Youth at Risk</translation>
+    </picklistValues>
+</CustomFieldTranslation>

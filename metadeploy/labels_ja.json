@@ -9,16 +9,16 @@
             "description": "tagline of product"
         },
         "description": {
-            "message": "Outbound Funds Module インストーラをご利用いただきありがとうございます。\r\n\r\nOutbound Funds Module では、資金調達要求と出資金を容易に管理および追跡するためのツールが提供されます。\r\n\r\n*重要*: Salesforce は、本番組織にアップグレードを直接インストールすることを推奨しません。まず、Outbound Funds Module を無料の Sandbox 環境または Developer Edition 組織にインストールしてください。\r\n\r\nOutbound Funds Module のインストールが完了したら、使用を開始するための各種資料を参照してください。\r\n\r\n* [Outbound Funds Module ドキュメント](https://powerofus.force.com/s/article/OFM-Documentation)\r\n\r\nご質問がある場合は、Power of Us Hub の [Outbound Funds Module](https://powerofus.force.com/s/group/0F980000000CvlMCAS) コミュニティグループにご参加ください。",
+            "message": "Outbound Funds Module インストーラをご利用いただきありがとうございます。\r\n\r\nOutbound Funds Module では、資金調達要求と出資金を容易に管理および追跡するためのツールが提供されます。\r\n\r\n*重要*: Salesforce は、本番組織にアップグレードを直接インストールすることを推奨しません。まず、Outbound Funds Module を無料の Sandbox 環境または Developer Edition 組織にインストールしてください。\r\n\r\nOutbound Funds Module のインストールが完了したら、 [Outbound Funds Module ドキュメント](https://powerofus.force.com/s/article/OFM-Documentation) を参照して使用を開始してください。 \r\n\r\nOutbound Funds Module に Fundseeker Starter Portal Template を追加して拡張する場合は、[Outbound Funds Module Fundseeker Starter Portal Template インストーラ](https://install.salesforce.org/products/outbound-funds-portal/) を参照してください。\r\n\r\nご不明な点がございましたら、Power of Us Hub の [Outbound Funds Module](https://powerofus.force.com/s/group/0F980000000CvlMCAS) コミュニティグループにご参加ください。",
             "description": "shown on product detail page (markdown)"
+        },
+        "click_through_agreement": {
+            "message": "Outbound Funds Module (「OFM」) テクノロジは、Salesforce.com, Inc. 又はその関連会社の 1 つ (「SFDC」) が 3 条項 BSD ライセンス (https://opensource.org/licenses/BSD-3-Clause) の下でライセンスを供与するオープンソースパッケージです。OFM パッケージをインストールすると、SFDO Base パッケージ (SFDC が独自の使用制限付きライセンスの下でライセンスを供与するクローズドソーステクノロジ) が Salesforce 組織に自動的にインストールされます。\r\n\r\nお客様は OFM をインストールすることにより、そのライセンス (https://github.com/SalesforceFoundation/OutboundFunds/blob/master/LICENSE) 及び SFDO Base ライセンス (https://github.com/SalesforceFoundation/ProductLicenses/blob/master/SFDOBase.md) に同意したことになります。\r\n\r\nお客様又はお客様の法人と SFDC との間のマスターサブスクリプション契約は、OFM 又は SFDO Base の使用には適用されません。「関連会社」とは、該当法人を直接的又は間接的に支配している、該当法人により支配されている、又は該当法人との共同支配下にある法人を意味します。この定義の目的における「支配」とは、該当法人の議決権持分の 50% を超える直接的又は間接的な所有権又は支配を意味します。SALESFORCE.ORG LLC は SALESFORCE.COM, INC. の関連会社です。\r\n\r\nOFM 及び SFDO Base は SFDC 以外のアプリケーション又はサードパーティアプリケーションで、お客様と SFDC との間のマスターサブスクリプション契約に基づくサービスではありません。OFM 及び SFDO Base は「現状有姿」及び「現状渡し」で提供され、SFDC は、準拠法により許容される最大限において、明示的、黙字的、法律上、その他一切の PMM 又は SFDO Base に関するいかなる保証 (商品性、特定の目的に対する適合性、欠陥がないこと、不侵害の黙示的な保証を含むが、それに限定されない) も行いません。機密データ又は保護されたデータを OFM に送信する場合、その情報の処理においての OFM の使用がすべての適用法及び規制に準拠していることを確認するのは、全面的にお客様の責任となります。\r\n\r\nSFDC は、お客様の OFM 又は SFDO Base の使用に起因する又はそれに関連する直接の損害、又は利益、収入、業務上の信用の喪失、又は間接的、特別、偶発的、派生的、懲罰的、補償、事業の中断による損害に関して、その行為が契約内か不法行為かどうか、或いは責任論に関係なく、そのような損害の発生の可能性について予告がなされていた場合であっても、救済措置がその本来の目的を果たせなかった場合であっても、一切の責任を負わないものとします。上記の免責事項は、法律で禁止されている範囲においては適用されません。SFDC は、サードパーティのホスティングプロバイダによる損傷又は損害について、あらゆる法的責任及び賠償義務を負わないものとします。\r\n\r\n本契約は、米国及びカリフォルニア州の法律のみに準拠し、その法律のみに従って解釈されるものとし、抵触法条項を考慮しません。カリフォルニア州サンフランシスコに所在する州及び連邦裁判所は、本契約に起因又は関連するいかなる紛争を解決するための専属管轄権を有するものとします。各当事者は本契約により、かかる裁判所の管轄権に同意し、かかる法廷の適切性に異議を申し立てる権利を放棄します。",
+            "description": "legal text shown in modal dialog"
         },
         "error_message": {
             "message": "このエラーについて支援を受けるには、[help.salesforce.com](https://help.salesforce.com/) にアクセスし、[サポートとサービス] 領域を見つけて、Salesforce でテクニカルサポートのチケットを登録してください。件名行に「Outbound Funds Module」を含め、コメントにはここに表示されているインストールリンクを含めてください。",
             "description": "shown after failed installation (markdown)"
-        },
-        "click_through_agreement": {
-            "message": "Outbound Funds Module(（以下「OFM」といいます)技術は、三条項BSDライセンス([https://opensource.org/licenses/BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).で参照可能）に基づき、salesforce.com, Inc.(又はその何れかの関係会社（以下「SFDC」といいます）がライセンスするオープンソースパッケージです。 PMMパッケージをインストールする際に、SFDO が専有権の限定的利用許諾に基づきライセンスするクローズドソース技術のSFDO Baseパッケージがお客様のSalesforce orgに自動的にインストールされます。 \n\nOFMをインストールすることで、お客様は、当該ライセンス([https://github.com/SalesforceFoundation/OutboundFundsModule/blob/master/LICENSE](https://github.com/SalesforceFoundation/OutboundFunds/blob/master/LICENSE))ならびにSDFO Baseライセンス([https://github.com/SalesforceFoundation/ProductLicenses/blob/master/SFDOBase.md](https://github.com/SalesforceFoundation/ProductLicenses/blob/master/SFDOBase.md))に同意することになります。\n\nお客様又はお客様が所属する法人がSFDCとの間で、マスターサブスクリプション契約を締結している場合でも、当該契約は、お客様によるOFMまたはSFDO Baseの利用には適用されません。「関係会社」とは、直接もしくは間接に対象となる法人を支配する法人、当該法人に支配される法人、又は当該法人と共通の支配下にある法人を意味します。この定義における「支配」とは、直接又は間接に、当該法人の議決権の50％を超える持分を所有又は行使の権限をもって管理していることを意味します。SALESFORCE.ORG LLCはSALESFORCE.COM, INC.の関係会社です。 \n\nOFMおよびSFDO Baseは、非SFDCアプリケーション又はサードパーティアプリケーションであり、お客様がSFDCと締結しているマスターサブスクリプション契約に基づく本サービスではありません。OFMとSFDO Baseは「現状有姿」かつ「提供可能な範囲」で提供されます。SFDCは、適用法で認められる最大限の範囲で、OFM及びSFDO Baseに関する明示的、黙示的、法定、その他のいかなる種類の保証も行いません。このような保証には、商品性、特定目的への適合性、欠陥の不存在及び権利非侵害に関する黙示的保証が含まれますが、これらに限定されません。お客様がOFMに機微なデータ又は規制対象データを保存した場合、お客様は、お客様によるOFMの使用により処理する情報が、適用あるすべての法令を遵守していることに、単独で責任を負います。 \n\nお客様によるPMM又はSFDO BASEの利用に起因又は関連して生じた、直接損害、又は利益、収益もしくは信用の損失、間接損害、特別損害、付随的損害、結果的損害、補償、事業の中断、又は懲罰的損害については、その訴訟が契約又は不法行為のいずれに基づくかにかかわらず、またいかなる責任の法理によるかにかかわらず、SFDCは、責任を負いません。これは、SFDCが当該損害の可能性について知っていた場合や、救済措置がその本質的な目的を果たすことができない場合でも同様とします。 上記の免責は、法令によって禁じられている場合には、適用されないものとします。SFDCは、第三者のホスティング事業者に起因するいかなる損失又は損害についても、全ての責任及び補償義務を否認します。\n本契約は、米国及びカリフォルニア州の法律にのみ準拠し、同法に従ってのみ解釈されますが、同法の抵触法の規定は考慮しないものとします。本契約に起因又は関連する紛争の裁定については、カリフォルニア州サンフランシスコに所在する州及び連邦裁判所が専属的管轄権を有するものとします。各当事者は、当該裁判所の管轄権に同意するとともに、自己が有する可能性のある当該裁判所の適切性に異議を申し立てる権利を放棄します。",
-            "description": "legal text shown in modal dialog"
         }
     },
     "plan:install": {
@@ -31,7 +31,7 @@
             "description": "shown before user starts installation (markdown)"
         },
         "post_install_message": {
-            "message": "Outbound Funds Module をインストールしていただきありがとうございます。Outbound Funds Module に関するあらゆる質問については、Power of Us Hub の [Outbound Funds Module] (https://powerofus.force.com/s/group/0F980000000CvlMCAS) コミュニティグループにアクセスしてください。",
+            "message": "Outbound Funds Module をインストールしていただきありがとうございます。Outbound Funds Module に関するあらゆる質問については、Power of Us Hub の [Outbound Funds Module](https://powerofus.force.com/s/group/0F980000000CvlMCAS) コミュニティグループにアクセスしてください。",
             "description": "shown after successful installation (markdown)"
         },
         "error_message": {
@@ -39,10 +39,34 @@
             "description": "shown after failed installation (markdown)"
         }
     },
+    "checks": {
+        "Outbound Funds Module requires Chatter. Please enable Chatter in your org and try again.": {
+            "message": "Outbound Funds Module には Chatter が必要です。組織で Chatter を有効化して、もう一度お試しください。",
+            "description": "shown if validation fails"
+        },
+        "Please enable My Domain in your org prior to installing.": {
+            "message": "インストールの前に組織で [私のドメイン] を有効にしてください。",
+            "description": "shown if validation fails"
+        }
+    },
     "steps": {
         "Install {product} {version}": {
             "message": "{product} {version} のインストール",
             "description": "title of installation step"
+        }
+    },
+    "plan:upgrade": {
+        "title": {
+            "message": "製品のアップグレード",
+            "description": "title of installation plan"
+        },
+        "preflight_message": {
+            "message": "インストーラは、このパッケージおよび組織内の必要な連動アプリケーションを最新のバージョンにアップグレードします。このインストーラはサポートされておらず、リスクがあります。その特定の使用事例と考慮事項を理解した上で、このインストーラを実行してください。",
+            "description": "shown before user starts installation (markdown)"
+        },
+        "post_install_message": {
+            "message": "インストールが完了し、パッケージは最新バージョンで実行されます。",
+            "description": "shown after successful installation (markdown)"
         }
     }
 }

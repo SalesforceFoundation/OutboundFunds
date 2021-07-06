@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>Top_Level__c</name>
+    <help>Check if this Funding Program is the top level in a program hierarchy.</help>
+    <label>Top Level</label>
+</CustomFieldTranslation>

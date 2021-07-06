@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Review Layout</layout>
+        <sections>
+            <label>Beoordeling</label>
+            <section>Review</section>
+        </sections>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Naam beoordeling</nameFieldLabel>
+    <standardFields>
+        <name>Name</name>
+        <label>Naam beoordeling</label>
+    </standardFields>
+    <gender>Feminine</gender>
     <caseValues>
         <plural>false</plural>
-        <value><!-- Review --></value>
+        <value>Beoordeling</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value><!-- Review --></value>
+        <value>Beoordelingen</value>
     </caseValues>
-    <gender><!-- Neuter --></gender>
-    <nameFieldLabel><!-- Review Name --></nameFieldLabel>
 </CustomObjectTranslation>

@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <name>disbursementsCreate_ScheduleDisbursements</name>
-        <label>Uitbetalingen plannen</label>
+        <name>Calculate</name>
+        <label>Berekenen</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_FundingRequestInformation</name>
-        <label>Gegevens financieringsaanvraag</label>
+        <name>Cancel</name>
+        <label>Annuleren</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoInsertFlsException</name>
+        <label>U hebt niet op veldniveau toegang om deze record te maken. Vraag uw Salesforce-beheerder om hulp.</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoUpdateFlsException</name>
+        <label>U hebt niet op veldniveau toegang om deze record te bewerken. Vraag uw Salesforce-beheerder om hulp.</label>
+    </customLabels>
+    <customLabels>
+        <name>DatabaseService_NoDeleteAccessException</name>
+        <label>U hebt geen verwijdertoegang voor dit object. Vraag uw Salesforce-beheerder om hulp.</label>
+    </customLabels>
+    <customLabels>
+        <name>Details</name>
+        <label>Details</label>
+    </customLabels>
+    <customLabels>
+        <name>Disbursements</name>
+        <label>Uitbetalingen</label>
+    </customLabels>
+    <customLabels>
+        <name>Error</name>
+        <label>Fout</label>
+    </customLabels>
+    <customLabels>
+        <name>Funding_Requests</name>
+        <label>Financieringsaanvragen</label>
+    </customLabels>
+    <customLabels>
+        <name>Program_Analysis</name>
+        <label>Programma-analyse</label>
+    </customLabels>
+    <customLabels>
+        <name>Requirements</name>
+        <label>Vereisten</label>
+    </customLabels>
+    <customLabels>
+        <name>Save</name>
+        <label>Opslaan</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_CalculateDisbursements</name>
         <label>Uitbetalingen berekenen</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_NumberOfDisbursements</name>
-        <label>Aantal uitbetalingen</label>
-    </customLabels>
-    <customLabels>
         <name>disbursementsCreate_FirstDate</name>
         <label>Datum eerste</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_FundingRequestInformation</name>
+        <label>Gegevens financieringsaanvraag</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_Interval</name>
@@ -29,12 +69,12 @@
         <label>Periode</label>
     </customLabels>
     <customLabels>
-        <name>disbursementsCreate_IntervalType_Week</name>
-        <label>Week</label>
-    </customLabels>
-    <customLabels>
         <name>disbursementsCreate_IntervalType_Month</name>
         <label>Maand</label>
+    </customLabels>
+    <customLabels>
+        <name>disbursementsCreate_IntervalType_Week</name>
+        <label>Week</label>
     </customLabels>
     <customLabels>
         <name>disbursementsCreate_IntervalType_Year</name>
@@ -45,6 +85,10 @@
         <label>Er is niet genoeg geld over om uitbetalingen te kunnen aanmaken.</label>
     </customLabels>
     <customLabels>
+        <name>disbursementsCreate_NumberOfDisbursements</name>
+        <label>Aantal uitbetalingen</label>
+    </customLabels>
+    <customLabels>
         <name>disbursementsCreate_PaymentsExceedFunds</name>
         <label>Het bedrag van de betalingen mag het beschikbare bedrag niet overschrijden.</label>
     </customLabels>
@@ -53,20 +97,8 @@
         <label>De uitbetalingen zijn opgeslagen.</label>
     </customLabels>
     <customLabels>
-        <name>Error</name>
-        <label>Fout</label>
-    </customLabels>
-    <customLabels>
-        <name>Save</name>
-        <label>Opslaan</label>
-    </customLabels>
-    <customLabels>
-        <name>Cancel</name>
-        <label>Annuleren</label>
-    </customLabels>
-    <customLabels>
-        <name>Calculate</name>
-        <label>Berekenen</label>
+        <name>disbursementsCreate_ScheduleDisbursements</name>
+        <label>Uitbetalingen plannen</label>
     </customLabels>
     <reportTypes>
         <name>Funding_Programs_with_Funding_Requests_with_Disbursements</name>
@@ -115,6 +147,10 @@
     <quickActions>
         <name>Funding_Request__c.Create_Bulk_Disbursements</name>
         <label>Uitbetalingen aanmaken</label>
+    </quickActions>
+    <quickActions>
+        <name>Review__c.SubmitReview</name>
+        <label>Beoordeling indienen</label>
     </quickActions>
     <quickActions>
         <name>Funding_Program__c.Program_Totals</name>

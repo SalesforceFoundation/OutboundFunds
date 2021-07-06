@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>Status__c</name>
+    <help>Der Status der Überprüfung.</help>
+    <label>Status</label>
+    <picklistValues>
+        <masterLabel>Not Started</masterLabel>
+        <translation>Nicht gestartet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation>Wird ausgeführt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Submitted</masterLabel>
+        <translation>Abgesendet</translation>
+    </picklistValues>
+</CustomFieldTranslation>

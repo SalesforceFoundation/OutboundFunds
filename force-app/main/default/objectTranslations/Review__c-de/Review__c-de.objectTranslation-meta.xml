@@ -1,45 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Review Layout</layout>
+        <sections>
+            <label>Überprüfung</label>
+            <section>Review</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Name der Überprüfung</nameFieldLabel>
+    <standardFields>
+        <name>Name</name>
+        <label>Name der Überprüfung</label>
+    </standardFields>
+    <gender>Feminine</gender>
     <caseValues>
+        <plural>false</plural>
         <caseType>Nominative</caseType>
-        <plural>false</plural>
-        <value><!-- Review --></value>
+        <value>Überprüfung</value>
     </caseValues>
     <caseValues>
+        <plural>false</plural>
+        <caseType>Accusative</caseType>
+        <value>Überprüfung</value>
+    </caseValues>
+    <caseValues>
+        <plural>false</plural>
+        <caseType>Dative</caseType>
+        <value>Überprüfung</value>
+    </caseValues>
+    <caseValues>
+        <plural>false</plural>
+        <caseType>Genitive</caseType>
+        <value>Überprüfung</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
         <caseType>Nominative</caseType>
-        <plural>true</plural>
-        <value><!-- Review --></value>
+        <value>Überprüfungen</value>
     </caseValues>
     <caseValues>
+        <plural>true</plural>
         <caseType>Accusative</caseType>
-        <plural>false</plural>
-        <value><!-- Review --></value>
+        <value>Überprüfungen</value>
     </caseValues>
     <caseValues>
-        <caseType>Accusative</caseType>
         <plural>true</plural>
-        <value><!-- Review --></value>
-    </caseValues>
-    <caseValues>
-        <caseType>Genitive</caseType>
-        <plural>false</plural>
-        <value><!-- Review --></value>
-    </caseValues>
-    <caseValues>
-        <caseType>Genitive</caseType>
-        <plural>true</plural>
-        <value><!-- Review --></value>
-    </caseValues>
-    <caseValues>
         <caseType>Dative</caseType>
-        <plural>false</plural>
-        <value><!-- Review --></value>
+        <value>Überprüfungen</value>
     </caseValues>
     <caseValues>
-        <caseType>Dative</caseType>
         <plural>true</plural>
-        <value><!-- Review --></value>
+        <caseType>Genitive</caseType>
+        <value>Überprüfungen</value>
     </caseValues>
-    <gender><!-- Neuter --></gender>
-    <nameFieldLabel><!-- Review Name --></nameFieldLabel>
 </CustomObjectTranslation>

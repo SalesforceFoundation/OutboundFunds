@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Disbursement Layout</layout>
+        <sections>
+            <label>Custom Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Disbursement</nameFieldLabel>
+    <standardFields>
+        <name>Name</name>
+        <label>Disbursement</label>
+    </standardFields>
+    <startsWith>Consonant</startsWith>
+    <caseValues>
+        <plural>false</plural>
+        <value>Disbursement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Disbursements</value>
+    </caseValues>
+</CustomObjectTranslation>

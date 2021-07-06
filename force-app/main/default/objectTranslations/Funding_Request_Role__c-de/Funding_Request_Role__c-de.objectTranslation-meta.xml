@@ -16,41 +16,41 @@
     <caseValues>
         <plural>false</plural>
         <caseType>Nominative</caseType>
-        <value>Rolle für Finanzierungsanfragen</value>
+        <value>Förderantragsrolle</value>
     </caseValues>
     <caseValues>
         <plural>false</plural>
         <caseType>Accusative</caseType>
-        <value>Rolle für Finanzierungsanfragen</value>
+        <value>Förderantragsrolle</value>
     </caseValues>
     <caseValues>
         <plural>false</plural>
         <caseType>Dative</caseType>
-        <value>Rolle für Finanzierungsanfragen</value>
+        <value>Förderantragsrolle</value>
     </caseValues>
     <caseValues>
         <plural>false</plural>
         <caseType>Genitive</caseType>
-        <value>Rolle für Finanzierungsanfragen</value>
+        <value>Förderantragsrolle</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
         <caseType>Nominative</caseType>
-        <value>Rollen für Finanzierungsanfragen</value>
+        <value>Förderantragsrollen</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
         <caseType>Accusative</caseType>
-        <value>Rollen für Finanzierungsanfragen</value>
+        <value>Förderantragsrollen</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
         <caseType>Dative</caseType>
-        <value>Rollen für Finanzierungsanfragen</value>
+        <value>Förderantragsrollen</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
         <caseType>Genitive</caseType>
-        <value>Rollen für Finanzierungsanfragen</value>
+        <value>Förderantragsrollen</value>
     </caseValues>
 </CustomObjectTranslation>

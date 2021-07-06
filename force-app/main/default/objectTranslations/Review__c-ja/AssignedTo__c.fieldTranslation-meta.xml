@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>AssignedTo__c</name>
+    <help>このレビューレコードのレビュー担当者を選択します。</help>
+    <label>割り当て先</label>
+</CustomFieldTranslation>

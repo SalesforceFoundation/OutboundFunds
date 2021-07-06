@@ -14,6 +14,6 @@
     </standardFields>
     <caseValues>
         <plural>false</plural>
-        <value>支払金</value>
+        <value>支出</value>
     </caseValues>
 </CustomObjectTranslation>
