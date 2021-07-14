@@ -62,7 +62,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Error</shortDescription>
-        <value>Error</value>
+        <value>Resolve error</value>
     </labels>
     <labels>
         <fullName>Funding_Requests</fullName>
